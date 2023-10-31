@@ -1,7 +1,6 @@
 //! A simple 3D scene with light shining over a cube sitting on a plane.
 
 use bevy::{prelude::*, window::close_on_esc};
-
 mod camera;
 use camera::CameraPlugin;
 
